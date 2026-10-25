@@ -1,0 +1,65 @@
+{
+  "variable": "empty_km_reduction_pct",
+  "outcome": "DECIDE",
+  "baseline": {
+    "basis": "mean of last 13 weeks",
+    "empty_km": 35338.61538461538,
+    "loaded_km": 267723.3846153846,
+    "variable_cost_per_km": 0.6840791526283273
+  },
+  "assumptions": [
+    "Only fuel and maintenance scale with kilometres (driver cost treated as fixed: conservative)",
+    "Revenue unchanged"
+  ],
+  "scenarios": [
+    {
+      "empty_km_reduction_pct": 0,
+      "avoided_km_per_week": 0.0,
+      "weekly_cost_saving": 0.0,
+      "new_operating_ratio_pct": 89.94524008042163,
+      "annualized_saving": 0.0
+    },
+    {
+      "empty_km_reduction_pct": 5,
+      "avoided_km_per_week": 1766.930769230769,
+      "weekly_cost_saving": 1208.720503368303,
+      "new_operating_ratio_pct": 89.85132910552962,
+      "annualized_saving": 62853.466175151756
+    },
+    {
+      "empty_km_reduction_pct": 10,
+      "avoided_km_per_week": 3533.861538461538,
+      "weekly_cost_saving": 2417.441006736606,
+      "new_operating_ratio_pct": 89.7574181306376,
+      "annualized_saving": 125706.93235030351
+    },
+    {
+      "empty_km_reduction_pct": 15,
+      "avoided_km_per_week": 5300.792307692307,
+      "weekly_cost_saving": 3626.161510104909,
+      "new_operating_ratio_pct": 89.66350715574558,
+      "annualized_saving": 188560.39852545527
+    },
+    {
+      "empty_km_reduction_pct": 20,
+      "avoided_km_per_week": 7067.723076923076,
+      "weekly_cost_saving": 4834.882013473212,
+      "new_operating_ratio_pct": 89.56959618085357,
+      "annualized_saving": 251413.86470060702
+    },
+    {
+      "empty_km_reduction_pct": 25,
+      "avoided_km_per_week": 8834.653846153846,
+      "weekly_cost_saving": 6043.602516841515,
+      "new_operating_ratio_pct": 89.47568520596154,
+      "annualized_saving": 314267.3308757588
+    },
+    {
+      "empty_km_reduction_pct": 30,
+      "avoided_km_per_week": 10601.584615384614,
+      "weekly_cost_saving": 7252.323020209818,
+      "new_operating_ratio_pct": 89.38177423106953,
+      "annualized_saving": 377120.79705091054
+    }
+  ]
+}

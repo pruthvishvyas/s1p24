@@ -1,0 +1,103 @@
+{
+  "outcome": "DECIDE",
+  "recommendations": [
+    {
+      "rule": "slow_collections",
+      "label": "Receivable days above limit",
+      "action": "Build this week's collections call list for accounts past terms",
+      "weeks_flagged_total": 102,
+      "weeks_flagged_last_13": 13,
+      "last_flagged_week": "2026-09-21 00:00:00",
+      "priority": "HIGH"
+    },
+    {
+      "rule": "carrier_dependence",
+      "label": "Purchased transport share above limit",
+      "action": "Renegotiate carrier rates or insource the highest-volume lanes",
+      "weeks_flagged_total": 172,
+      "weeks_flagged_last_13": 13,
+      "last_flagged_week": "2026-09-21 00:00:00",
+      "priority": "HIGH"
+    },
+    {
+      "rule": "thin_cash",
+      "label": "Cash cover below minimum",
+      "action": "Liquidity watch: delay discretionary capex and accelerate collections",
+      "weeks_flagged_total": 177,
+      "weeks_flagged_last_13": 12,
+      "last_flagged_week": "2026-09-21 00:00:00",
+      "priority": "HIGH"
+    },
+    {
+      "rule": "low_fleet_util",
+      "label": "Fleet utilization below minimum",
+      "action": "Redeploy or park idle trucks and review fleet size for next quarter",
+      "weeks_flagged_total": 124,
+      "weeks_flagged_last_13": 9,
+      "last_flagged_week": "2026-09-21 00:00:00",
+      "priority": "HIGH"
+    },
+    {
+      "rule": "late_deliveries",
+      "label": "On-time delivery below minimum",
+      "action": "Run a service-recovery review on late lanes and carriers",
+      "weeks_flagged_total": 119,
+      "weeks_flagged_last_13": 7,
+      "last_flagged_week": "2026-09-21 00:00:00",
+      "priority": "HIGH"
+    },
+    {
+      "rule": "claims_spike",
+      "label": "Claims rate in highest decile",
+      "action": "Review damaged or lost-freight claims by lane and handler",
+      "weeks_flagged_total": 21,
+      "weeks_flagged_last_13": 1,
+      "last_flagged_week": "2026-07-06 00:00:00",
+      "priority": "LOW"
+    },
+    {
+      "rule": "loss_week",
+      "label": "Operating loss week",
+      "action": "Stop-loss review: reprice weak lanes or cut cost lines before next week's loads are booked",
+      "weeks_flagged_total": 7,
+      "weeks_flagged_last_13": 0,
+      "last_flagged_week": "2025-02-10 00:00:00",
+      "priority": "LOW"
+    },
+    {
+      "rule": "high_or",
+      "label": "Operating ratio above target",
+      "action": "Check lane pricing and the three largest cost lines for this week",
+      "weeks_flagged_total": 61,
+      "weeks_flagged_last_13": 0,
+      "last_flagged_week": "2026-02-09 00:00:00",
+      "priority": "LOW"
+    },
+    {
+      "rule": "empty_running",
+      "label": "Empty running above limit",
+      "action": "Rebalance backhauls and consolidate loads to cut empty kilometres",
+      "weeks_flagged_total": 23,
+      "weeks_flagged_last_13": 0,
+      "last_flagged_week": "2024-12-23 00:00:00",
+      "priority": "LOW"
+    },
+    {
+      "rule": "fuel_recovery_gap",
+      "label": "Fuel surcharge recovery in lowest quartile at high fuel price",
+      "action": "Reset the fuel surcharge table against current fuel price",
+      "weeks_flagged_total": 34,
+      "weeks_flagged_last_13": 0,
+      "last_flagged_week": "2025-09-08 00:00:00",
+      "priority": "LOW"
+    }
+  ],
+  "this_week": [
+    {
+      "Week_Start": "2026-09-21 00:00:00",
+      "Priority": "P1_URGENT",
+      "Triggered_Rules": "Fleet utilization below minimum | Receivable days above limit | On-time delivery below minimum | Purchased transport share above limit | Cash cover below minimum",
+      "Actions": "Redeploy or park idle trucks and review fleet size for next quarter; Build this week's collections call list for accounts past terms; Run a service-recovery review on late lanes and carriers; Renegotiate carrier rates or insource the highest-volume lanes; Liquidity watch: delay discretionary capex and accelerate collections"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "variable": "fuel_price_change_pct",
+  "outcome": "DECIDE",
+  "baseline": {
+    "basis": "mean of last 13 weeks",
+    "weekly_revenue": 1287091.849230769,
+    "weekly_operating_cost": 1157677.8538461537,
+    "weekly_fuel_cost": 103610.11769230767,
+    "weekly_fuel_surcharge_revenue": 0.0
+  },
+  "assumptions": [
+    "Fuel cost moves in proportion to fuel price",
+    "Fuel surcharge revenue moves in proportion to fuel price (current recovery ratio held)",
+    "Volumes unchanged"
+  ],
+  "scenarios": [
+    {
+      "fuel_price_change_pct": -20,
+      "weekly_profit_change": 20722.023538461533,
+      "new_weekly_profit": 150136.0189230768,
+      "new_operating_ratio_pct": 88.33525214126672,
+      "annualized_profit_change": 1077545.2239999997
+    },
+    {
+      "fuel_price_change_pct": -15,
+      "weekly_profit_change": 15541.517653846151,
+      "new_weekly_profit": 144955.51303846156,
+      "new_operating_ratio_pct": 88.73774912605543,
+      "annualized_profit_change": 808158.9179999998
+    },
+    {
+      "fuel_price_change_pct": -10,
+      "weekly_profit_change": 10361.011769230767,
+      "new_weekly_profit": 139775.0071538461,
+      "new_operating_ratio_pct": 89.14024611084417,
+      "annualized_profit_change": 538772.6119999998
+    },
+    {
+      "fuel_price_change_pct": -5,
+      "weekly_profit_change": 5180.505884615383,
+      "new_weekly_profit": 134594.50126923085,
+      "new_operating_ratio_pct": 89.54274309563289,
+      "annualized_profit_change": 269386.3059999999
+    },
+    {
+      "fuel_price_change_pct": 0,
+      "weekly_profit_change": 0.0,
+      "new_weekly_profit": 129413.99538461538,
+      "new_operating_ratio_pct": 89.94524008042163,
+      "annualized_profit_change": 0.0
+    },
+    {
+      "fuel_price_change_pct": 5,
+      "weekly_profit_change": -5180.505884615383,
+      "new_weekly_profit": 124233.48949999991,
+      "new_operating_ratio_pct": 90.34773706521038,
+      "annualized_profit_change": -269386.3059999999
+    },
+    {
+      "fuel_price_change_pct": 10,
+      "weekly_profit_change": -10361.011769230767,
+      "new_weekly_profit": 119052.98361538467,
+      "new_operating_ratio_pct": 90.7502340499991,
+      "annualized_profit_change": -538772.6119999998
+    },
+    {
+      "fuel_price_change_pct": 15,
+      "weekly_profit_change": -15541.517653846151,
+      "new_weekly_profit": 113872.4777307692,
+      "new_operating_ratio_pct": 91.15273103478783,
+      "annualized_profit_change": -808158.9179999998
+    },
+    {
+      "fuel_price_change_pct": 20,
+      "weekly_profit_change": -20722.023538461533,
+      "new_weekly_profit": 108691.97184615396,
+      "new_operating_ratio_pct": 91.55522801957655,
+      "annualized_profit_change": -1077545.2239999997
+    }
+  ]
+}

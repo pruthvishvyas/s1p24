@@ -1,0 +1,27 @@
+{
+  "id": "quarter_operating_ratio",
+  "title": "Which quarters run the weakest operating ratio and need pricing or capacity action?",
+  "type": "bar",
+  "outcome": "DECIDE",
+  "question": "Which quarters run the weakest operating ratio and need pricing or capacity action?",
+  "x_label": "Quarter",
+  "y_label": "Mean operating ratio %",
+  "data": [
+    {
+      "label": "Q1",
+      "value": 96.33461538461538
+    },
+    {
+      "label": "Q2",
+      "value": 92.39038461538462
+    },
+    {
+      "label": "Q3",
+      "value": 92.70576923076922
+    },
+    {
+      "label": "Q4",
+      "value": 91.76730769230768
+    }
+  ]
+}

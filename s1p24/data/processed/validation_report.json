@@ -1,0 +1,93 @@
+{
+  "input_file": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\data\\raw\\s1p24.csv",
+  "raw_rows": 208,
+  "raw_cols": 49,
+  "column_resolution": {
+    "renamed": {},
+    "missing_optional": [],
+    "notes": []
+  },
+  "outcome": "UNDERSTAND",
+  "dtype_counts": {
+    "float64": 30,
+    "int64": 16,
+    "object": 3
+  },
+  "null_columns": {},
+  "date_parse_failures": 0,
+  "first_date": "2022-10-03 00:00:00",
+  "last_date": "2026-09-21 00:00:00",
+  "weekly_gaps_not_7_days": 0,
+  "duplicate_weeks": 0,
+  "empty_km_pct_definition": "Empty_Km / Loaded_Km",
+  "identity_checks": [
+    {
+      "check": "Total_Shipments = sum of modes",
+      "mismatch_weeks": 0,
+      "of": 208,
+      "max_abs_diff": 0.0
+    },
+    {
+      "check": "Total_Revenue = base + fuel surcharge + accessorial",
+      "mismatch_weeks": 0,
+      "of": 208,
+      "max_abs_diff": 0.01000000024214387
+    },
+    {
+      "check": "Total_Operating_Cost = sum of cost lines",
+      "mismatch_weeks": 0,
+      "of": 208,
+      "max_abs_diff": 0.02000000001862645
+    },
+    {
+      "check": "Operating_Profit = Revenue - Operating cost",
+      "mismatch_weeks": 0,
+      "of": 208,
+      "max_abs_diff": 0.010000000183936208
+    },
+    {
+      "check": "Operating_Ratio_pct = cost / revenue * 100",
+      "mismatch_weeks": 0,
+      "of": 208,
+      "max_abs_diff": 0.0496321222005065
+    }
+  ],
+  "negative_or_zero_revenue_weeks": 0,
+  "utilization_above_100_weeks": 0,
+  "enough_rows_for_forecast": true,
+  "status": "OK",
+  "cleaning": {
+    "raw_rows": 208,
+    "clean_rows": 208,
+    "removed_rows": 0,
+    "removed_pct": 0.0,
+    "actions": [
+      {
+        "action": "dropped rows with unparseable Week_Start",
+        "rows": 0
+      },
+      {
+        "action": "removed duplicate weeks (kept first)",
+        "rows": 0
+      },
+      {
+        "action": "dropped weeks with missing revenue or operating cost",
+        "rows": 0
+      },
+      {
+        "action": "dropped weeks with revenue <= 0 (invalid week)",
+        "rows": 0
+      },
+      {
+        "action": "derived missing Operating_Profit = revenue - operating cost (identity)",
+        "rows": 0
+      },
+      {
+        "action": "filled missing Operating_Ratio_pct from identity",
+        "rows": 0
+      }
+    ],
+    "financial_values_capped": false,
+    "note": "No outlier capping: weekly P&L extremes are real signal"
+  }
+}

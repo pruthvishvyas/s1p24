@@ -1,0 +1,29 @@
+{
+  "outcome": "MONITOR",
+  "goals": [
+    {
+      "goal": "Operating ratio (last 13 weeks)",
+      "actual": 90.0076923076923,
+      "target": 95.0,
+      "status": "ON_TRACK"
+    },
+    {
+      "goal": "Receivable days (latest)",
+      "actual": 50.6,
+      "target": 45.0,
+      "status": "OFF_TRACK"
+    },
+    {
+      "goal": "On-time delivery (last 13 weeks)",
+      "actual": 90.19230769230768,
+      "target": 90.0,
+      "status": "ON_TRACK"
+    },
+    {
+      "goal": "Cash cover weeks (latest)",
+      "actual": 3.449587837362269,
+      "target": 4.0,
+      "status": "OFF_TRACK"
+    }
+  ]
+}

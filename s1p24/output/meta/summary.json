@@ -1,0 +1,10 @@
+{
+  "project": "Weekly Freight & Logistics Operations",
+  "domain": "Freight and logistics (asset-based carrier with purchased transport)",
+  "client_id": "s1p24",
+  "last_run": "2026-10-23T10:56:24",
+  "weeks": 208,
+  "first_week": "2022-10-03 00:00:00",
+  "last_week": "2026-09-21 00:00:00",
+  "data_provenance": "synthetic_portfolio"
+}

@@ -1,0 +1,1051 @@
+{
+  "id": "cash_dso_trend",
+  "title": "Is cash balance keeping pace while receivable days move?",
+  "type": "line",
+  "outcome": "MONITOR",
+  "question": "Is cash balance keeping pace while receivable days move?",
+  "x_label": "Week",
+  "y_label": "Cash balance / DSO days",
+  "data": [
+    {
+      "label": "2022-10-03",
+      "cash_balance": 968937.29,
+      "dso_days": 41.2
+    },
+    {
+      "label": "2022-10-10",
+      "cash_balance": 1713635.2,
+      "dso_days": 36.5
+    },
+    {
+      "label": "2022-10-17",
+      "cash_balance": 1472375.45,
+      "dso_days": 37.8
+    },
+    {
+      "label": "2022-10-24",
+      "cash_balance": 1683486.42,
+      "dso_days": 40.8
+    },
+    {
+      "label": "2022-10-31",
+      "cash_balance": 1037306.99,
+      "dso_days": 41.4
+    },
+    {
+      "label": "2022-11-07",
+      "cash_balance": 1954486.52,
+      "dso_days": 36.5
+    },
+    {
+      "label": "2022-11-14",
+      "cash_balance": 1179756.72,
+      "dso_days": 43.5
+    },
+    {
+      "label": "2022-11-21",
+      "cash_balance": 1896242.91,
+      "dso_days": 39.7
+    },
+    {
+      "label": "2022-11-28",
+      "cash_balance": 1964689.2,
+      "dso_days": 38.6
+    },
+    {
+      "label": "2022-12-05",
+      "cash_balance": 1896411.67,
+      "dso_days": 36.2
+    },
+    {
+      "label": "2022-12-12",
+      "cash_balance": 1811435.66,
+      "dso_days": 39.9
+    },
+    {
+      "label": "2022-12-19",
+      "cash_balance": 1995792.57,
+      "dso_days": 40.2
+    },
+    {
+      "label": "2022-12-26",
+      "cash_balance": 1989517.0,
+      "dso_days": 40.7
+    },
+    {
+      "label": "2023-01-02",
+      "cash_balance": 2704062.57,
+      "dso_days": 41.4
+    },
+    {
+      "label": "2023-01-09",
+      "cash_balance": 3322082.72,
+      "dso_days": 40.2
+    },
+    {
+      "label": "2023-01-16",
+      "cash_balance": 3264992.16,
+      "dso_days": 39.7
+    },
+    {
+      "label": "2023-01-23",
+      "cash_balance": 3955894.56,
+      "dso_days": 38.0
+    },
+    {
+      "label": "2023-01-30",
+      "cash_balance": 2653642.92,
+      "dso_days": 43.2
+    },
+    {
+      "label": "2023-02-06",
+      "cash_balance": 3282001.6,
+      "dso_days": 38.2
+    },
+    {
+      "label": "2023-02-13",
+      "cash_balance": 3363464.79,
+      "dso_days": 40.0
+    },
+    {
+      "label": "2023-02-20",
+      "cash_balance": 3210462.21,
+      "dso_days": 42.2
+    },
+    {
+      "label": "2023-02-27",
+      "cash_balance": 4057578.79,
+      "dso_days": 38.6
+    },
+    {
+      "label": "2023-03-06",
+      "cash_balance": 2494274.94,
+      "dso_days": 40.1
+    },
+    {
+      "label": "2023-03-13",
+      "cash_balance": 2101345.45,
+      "dso_days": 42.7
+    },
+    {
+      "label": "2023-03-20",
+      "cash_balance": 2248183.11,
+      "dso_days": 41.3
+    },
+    {
+      "label": "2023-03-27",
+      "cash_balance": 1657623.24,
+      "dso_days": 44.2
+    },
+    {
+      "label": "2023-04-03",
+      "cash_balance": 2372988.37,
+      "dso_days": 38.6
+    },
+    {
+      "label": "2023-04-10",
+      "cash_balance": 2017049.88,
+      "dso_days": 40.1
+    },
+    {
+      "label": "2023-04-17",
+      "cash_balance": 1566827.57,
+      "dso_days": 40.6
+    },
+    {
+      "label": "2023-04-24",
+      "cash_balance": 2431241.35,
+      "dso_days": 38.0
+    },
+    {
+      "label": "2023-05-01",
+      "cash_balance": 1925776.68,
+      "dso_days": 41.3
+    },
+    {
+      "label": "2023-05-08",
+      "cash_balance": 1212113.31,
+      "dso_days": 39.8
+    },
+    {
+      "label": "2023-05-15",
+      "cash_balance": 1765587.35,
+      "dso_days": 41.5
+    },
+    {
+      "label": "2023-05-22",
+      "cash_balance": 2383985.68,
+      "dso_days": 39.1
+    },
+    {
+      "label": "2023-05-29",
+      "cash_balance": 1615948.61,
+      "dso_days": 39.8
+    },
+    {
+      "label": "2023-06-05",
+      "cash_balance": 1890221.6,
+      "dso_days": 40.8
+    },
+    {
+      "label": "2023-06-12",
+      "cash_balance": 2160871.68,
+      "dso_days": 40.4
+    },
+    {
+      "label": "2023-06-19",
+      "cash_balance": 1974206.3,
+      "dso_days": 39.8
+    },
+    {
+      "label": "2023-06-26",
+      "cash_balance": 2706741.23,
+      "dso_days": 40.2
+    },
+    {
+      "label": "2023-07-03",
+      "cash_balance": 2542511.3,
+      "dso_days": 41.9
+    },
+    {
+      "label": "2023-07-10",
+      "cash_balance": 1939926.14,
+      "dso_days": 42.0
+    },
+    {
+      "label": "2023-07-17",
+      "cash_balance": 2259551.65,
+      "dso_days": 39.6
+    },
+    {
+      "label": "2023-07-24",
+      "cash_balance": 1914636.84,
+      "dso_days": 42.5
+    },
+    {
+      "label": "2023-07-31",
+      "cash_balance": 2390768.8,
+      "dso_days": 41.1
+    },
+    {
+      "label": "2023-08-07",
+      "cash_balance": 2759779.62,
+      "dso_days": 42.5
+    },
+    {
+      "label": "2023-08-14",
+      "cash_balance": 2325740.2,
+      "dso_days": 38.7
+    },
+    {
+      "label": "2023-08-21",
+      "cash_balance": 2081106.0,
+      "dso_days": 42.5
+    },
+    {
+      "label": "2023-08-28",
+      "cash_balance": 2651742.07,
+      "dso_days": 41.5
+    },
+    {
+      "label": "2023-09-04",
+      "cash_balance": 2905849.18,
+      "dso_days": 40.1
+    },
+    {
+      "label": "2023-09-11",
+      "cash_balance": 1697265.15,
+      "dso_days": 43.4
+    },
+    {
+      "label": "2023-09-18",
+      "cash_balance": 2313500.63,
+      "dso_days": 42.0
+    },
+    {
+      "label": "2023-09-25",
+      "cash_balance": 2147206.13,
+      "dso_days": 41.1
+    },
+    {
+      "label": "2023-10-02",
+      "cash_balance": 1545530.69,
+      "dso_days": 39.4
+    },
+    {
+      "label": "2023-10-09",
+      "cash_balance": 1153225.69,
+      "dso_days": 41.5
+    },
+    {
+      "label": "2023-10-16",
+      "cash_balance": 1279428.16,
+      "dso_days": 41.5
+    },
+    {
+      "label": "2023-10-23",
+      "cash_balance": 1609704.0,
+      "dso_days": 43.1
+    },
+    {
+      "label": "2023-10-30",
+      "cash_balance": 361199.84,
+      "dso_days": 44.6
+    },
+    {
+      "label": "2023-11-06",
+      "cash_balance": 2513650.98,
+      "dso_days": 39.1
+    },
+    {
+      "label": "2023-11-13",
+      "cash_balance": 1836530.07,
+      "dso_days": 40.7
+    },
+    {
+      "label": "2023-11-20",
+      "cash_balance": 938757.05,
+      "dso_days": 44.1
+    },
+    {
+      "label": "2023-11-27",
+      "cash_balance": 2044012.04,
+      "dso_days": 42.6
+    },
+    {
+      "label": "2023-12-04",
+      "cash_balance": 2023649.54,
+      "dso_days": 42.9
+    },
+    {
+      "label": "2023-12-11",
+      "cash_balance": 1401494.3,
+      "dso_days": 40.3
+    },
+    {
+      "label": "2023-12-18",
+      "cash_balance": 1518214.93,
+      "dso_days": 40.3
+    },
+    {
+      "label": "2023-12-25",
+      "cash_balance": 2000998.47,
+      "dso_days": 41.6
+    },
+    {
+      "label": "2024-01-01",
+      "cash_balance": 3069965.96,
+      "dso_days": 41.8
+    },
+    {
+      "label": "2024-01-08",
+      "cash_balance": 2229863.76,
+      "dso_days": 46.6
+    },
+    {
+      "label": "2024-01-15",
+      "cash_balance": 3512419.5,
+      "dso_days": 41.0
+    },
+    {
+      "label": "2024-01-22",
+      "cash_balance": 2983986.98,
+      "dso_days": 45.0
+    },
+    {
+      "label": "2024-01-29",
+      "cash_balance": 3001303.57,
+      "dso_days": 43.2
+    },
+    {
+      "label": "2024-02-05",
+      "cash_balance": 2714699.58,
+      "dso_days": 44.4
+    },
+    {
+      "label": "2024-02-12",
+      "cash_balance": 2923432.64,
+      "dso_days": 43.6
+    },
+    {
+      "label": "2024-02-19",
+      "cash_balance": 3489853.42,
+      "dso_days": 40.4
+    },
+    {
+      "label": "2024-02-26",
+      "cash_balance": 2767543.18,
+      "dso_days": 44.4
+    },
+    {
+      "label": "2024-03-04",
+      "cash_balance": 1447773.37,
+      "dso_days": 42.0
+    },
+    {
+      "label": "2024-03-11",
+      "cash_balance": 2400171.47,
+      "dso_days": 42.2
+    },
+    {
+      "label": "2024-03-18",
+      "cash_balance": 1505651.04,
+      "dso_days": 43.6
+    },
+    {
+      "label": "2024-03-25",
+      "cash_balance": 1539238.41,
+      "dso_days": 43.4
+    },
+    {
+      "label": "2024-04-01",
+      "cash_balance": 1953667.03,
+      "dso_days": 40.6
+    },
+    {
+      "label": "2024-04-08",
+      "cash_balance": 1962825.01,
+      "dso_days": 42.8
+    },
+    {
+      "label": "2024-04-15",
+      "cash_balance": 1955170.29,
+      "dso_days": 42.0
+    },
+    {
+      "label": "2024-04-22",
+      "cash_balance": 1344846.93,
+      "dso_days": 44.5
+    },
+    {
+      "label": "2024-04-29",
+      "cash_balance": 2287543.95,
+      "dso_days": 43.5
+    },
+    {
+      "label": "2024-05-06",
+      "cash_balance": 1673935.6,
+      "dso_days": 43.7
+    },
+    {
+      "label": "2024-05-13",
+      "cash_balance": 2002817.79,
+      "dso_days": 43.3
+    },
+    {
+      "label": "2024-05-20",
+      "cash_balance": 1935189.29,
+      "dso_days": 41.8
+    },
+    {
+      "label": "2024-05-27",
+      "cash_balance": 2331507.07,
+      "dso_days": 45.8
+    },
+    {
+      "label": "2024-06-03",
+      "cash_balance": 2578550.22,
+      "dso_days": 40.9
+    },
+    {
+      "label": "2024-06-10",
+      "cash_balance": 1982969.38,
+      "dso_days": 42.6
+    },
+    {
+      "label": "2024-06-17",
+      "cash_balance": 2037426.42,
+      "dso_days": 45.0
+    },
+    {
+      "label": "2024-06-24",
+      "cash_balance": 1315499.8,
+      "dso_days": 45.0
+    },
+    {
+      "label": "2024-07-01",
+      "cash_balance": 2014119.0,
+      "dso_days": 41.6
+    },
+    {
+      "label": "2024-07-08",
+      "cash_balance": 1663301.81,
+      "dso_days": 45.3
+    },
+    {
+      "label": "2024-07-15",
+      "cash_balance": 1864922.85,
+      "dso_days": 44.1
+    },
+    {
+      "label": "2024-07-22",
+      "cash_balance": 946082.49,
+      "dso_days": 45.1
+    },
+    {
+      "label": "2024-07-29",
+      "cash_balance": 905958.67,
+      "dso_days": 46.1
+    },
+    {
+      "label": "2024-08-05",
+      "cash_balance": 1058384.9,
+      "dso_days": 43.2
+    },
+    {
+      "label": "2024-08-12",
+      "cash_balance": 1636535.3,
+      "dso_days": 44.5
+    },
+    {
+      "label": "2024-08-19",
+      "cash_balance": 1470064.21,
+      "dso_days": 42.0
+    },
+    {
+      "label": "2024-08-26",
+      "cash_balance": 536585.97,
+      "dso_days": 44.4
+    },
+    {
+      "label": "2024-09-02",
+      "cash_balance": 1061192.04,
+      "dso_days": 44.1
+    },
+    {
+      "label": "2024-09-09",
+      "cash_balance": 2099060.28,
+      "dso_days": 43.9
+    },
+    {
+      "label": "2024-09-16",
+      "cash_balance": 1397837.87,
+      "dso_days": 46.4
+    },
+    {
+      "label": "2024-09-23",
+      "cash_balance": 1113715.71,
+      "dso_days": 45.6
+    },
+    {
+      "label": "2024-09-30",
+      "cash_balance": 2212458.48,
+      "dso_days": 42.3
+    },
+    {
+      "label": "2024-10-07",
+      "cash_balance": 1154076.37,
+      "dso_days": 44.8
+    },
+    {
+      "label": "2024-10-14",
+      "cash_balance": 771306.01,
+      "dso_days": 45.0
+    },
+    {
+      "label": "2024-10-21",
+      "cash_balance": 494665.86,
+      "dso_days": 44.8
+    },
+    {
+      "label": "2024-10-28",
+      "cash_balance": 122476.75,
+      "dso_days": 46.1
+    },
+    {
+      "label": "2024-11-04",
+      "cash_balance": -292165.56,
+      "dso_days": 46.4
+    },
+    {
+      "label": "2024-11-11",
+      "cash_balance": 78343.45,
+      "dso_days": 45.9
+    },
+    {
+      "label": "2024-11-18",
+      "cash_balance": 931716.35,
+      "dso_days": 47.1
+    },
+    {
+      "label": "2024-11-25",
+      "cash_balance": -526705.05,
+      "dso_days": 51.1
+    },
+    {
+      "label": "2024-12-02",
+      "cash_balance": 151947.97,
+      "dso_days": 48.4
+    },
+    {
+      "label": "2024-12-09",
+      "cash_balance": 512011.82,
+      "dso_days": 49.7
+    },
+    {
+      "label": "2024-12-16",
+      "cash_balance": 1433145.99,
+      "dso_days": 48.2
+    },
+    {
+      "label": "2024-12-23",
+      "cash_balance": 521191.1,
+      "dso_days": 48.7
+    },
+    {
+      "label": "2024-12-30",
+      "cash_balance": 1165098.48,
+      "dso_days": 47.4
+    },
+    {
+      "label": "2025-01-06",
+      "cash_balance": 3280475.79,
+      "dso_days": 49.3
+    },
+    {
+      "label": "2025-01-13",
+      "cash_balance": 2491436.58,
+      "dso_days": 49.4
+    },
+    {
+      "label": "2025-01-20",
+      "cash_balance": 3536008.75,
+      "dso_days": 49.1
+    },
+    {
+      "label": "2025-01-27",
+      "cash_balance": 3321547.39,
+      "dso_days": 49.4
+    },
+    {
+      "label": "2025-02-03",
+      "cash_balance": 3133577.94,
+      "dso_days": 49.8
+    },
+    {
+      "label": "2025-02-10",
+      "cash_balance": 4107099.87,
+      "dso_days": 49.0
+    },
+    {
+      "label": "2025-02-17",
+      "cash_balance": 3628644.43,
+      "dso_days": 48.0
+    },
+    {
+      "label": "2025-02-24",
+      "cash_balance": 3461638.67,
+      "dso_days": 47.8
+    },
+    {
+      "label": "2025-03-03",
+      "cash_balance": 2384044.88,
+      "dso_days": 50.3
+    },
+    {
+      "label": "2025-03-10",
+      "cash_balance": 2943385.6,
+      "dso_days": 49.1
+    },
+    {
+      "label": "2025-03-17",
+      "cash_balance": 3170782.34,
+      "dso_days": 48.2
+    },
+    {
+      "label": "2025-03-24",
+      "cash_balance": 2432712.09,
+      "dso_days": 50.3
+    },
+    {
+      "label": "2025-03-31",
+      "cash_balance": 2689842.19,
+      "dso_days": 50.0
+    },
+    {
+      "label": "2025-04-07",
+      "cash_balance": 2848427.79,
+      "dso_days": 49.9
+    },
+    {
+      "label": "2025-04-14",
+      "cash_balance": 2477599.26,
+      "dso_days": 51.0
+    },
+    {
+      "label": "2025-04-21",
+      "cash_balance": 2443446.8,
+      "dso_days": 53.5
+    },
+    {
+      "label": "2025-04-28",
+      "cash_balance": 1571301.48,
+      "dso_days": 51.3
+    },
+    {
+      "label": "2025-05-05",
+      "cash_balance": 2889195.85,
+      "dso_days": 51.0
+    },
+    {
+      "label": "2025-05-12",
+      "cash_balance": 2547448.96,
+      "dso_days": 49.6
+    },
+    {
+      "label": "2025-05-19",
+      "cash_balance": 1806979.58,
+      "dso_days": 51.8
+    },
+    {
+      "label": "2025-05-26",
+      "cash_balance": 2986297.07,
+      "dso_days": 50.7
+    },
+    {
+      "label": "2025-06-02",
+      "cash_balance": 1494959.7,
+      "dso_days": 51.0
+    },
+    {
+      "label": "2025-06-09",
+      "cash_balance": 2398222.69,
+      "dso_days": 50.3
+    },
+    {
+      "label": "2025-06-16",
+      "cash_balance": 2715634.69,
+      "dso_days": 50.2
+    },
+    {
+      "label": "2025-06-23",
+      "cash_balance": 2795024.84,
+      "dso_days": 48.5
+    },
+    {
+      "label": "2025-06-30",
+      "cash_balance": 2892982.17,
+      "dso_days": 50.5
+    },
+    {
+      "label": "2025-07-07",
+      "cash_balance": 2480097.16,
+      "dso_days": 50.2
+    },
+    {
+      "label": "2025-07-14",
+      "cash_balance": 2280192.55,
+      "dso_days": 49.5
+    },
+    {
+      "label": "2025-07-21",
+      "cash_balance": 2772682.73,
+      "dso_days": 50.3
+    },
+    {
+      "label": "2025-07-28",
+      "cash_balance": 2698679.55,
+      "dso_days": 51.8
+    },
+    {
+      "label": "2025-08-04",
+      "cash_balance": 2092345.09,
+      "dso_days": 51.7
+    },
+    {
+      "label": "2025-08-11",
+      "cash_balance": 2968697.16,
+      "dso_days": 50.2
+    },
+    {
+      "label": "2025-08-18",
+      "cash_balance": 4698654.5,
+      "dso_days": 45.7
+    },
+    {
+      "label": "2025-08-25",
+      "cash_balance": 3242971.66,
+      "dso_days": 45.9
+    },
+    {
+      "label": "2025-09-01",
+      "cash_balance": 3076100.14,
+      "dso_days": 46.6
+    },
+    {
+      "label": "2025-09-08",
+      "cash_balance": 3917533.87,
+      "dso_days": 46.9
+    },
+    {
+      "label": "2025-09-15",
+      "cash_balance": 3385664.42,
+      "dso_days": 48.7
+    },
+    {
+      "label": "2025-09-22",
+      "cash_balance": 4203040.31,
+      "dso_days": 44.8
+    },
+    {
+      "label": "2025-09-29",
+      "cash_balance": 3773891.34,
+      "dso_days": 46.8
+    },
+    {
+      "label": "2025-10-06",
+      "cash_balance": 3395137.7,
+      "dso_days": 46.1
+    },
+    {
+      "label": "2025-10-13",
+      "cash_balance": 2093484.23,
+      "dso_days": 46.0
+    },
+    {
+      "label": "2025-10-20",
+      "cash_balance": 2579290.5,
+      "dso_days": 47.6
+    },
+    {
+      "label": "2025-10-27",
+      "cash_balance": 1876547.54,
+      "dso_days": 47.0
+    },
+    {
+      "label": "2025-11-03",
+      "cash_balance": 1807848.71,
+      "dso_days": 47.0
+    },
+    {
+      "label": "2025-11-10",
+      "cash_balance": 1316209.14,
+      "dso_days": 45.4
+    },
+    {
+      "label": "2025-11-17",
+      "cash_balance": 1674167.3,
+      "dso_days": 47.6
+    },
+    {
+      "label": "2025-11-24",
+      "cash_balance": 3202780.7,
+      "dso_days": 43.9
+    },
+    {
+      "label": "2025-12-01",
+      "cash_balance": 1755553.15,
+      "dso_days": 46.2
+    },
+    {
+      "label": "2025-12-08",
+      "cash_balance": 2401945.55,
+      "dso_days": 47.8
+    },
+    {
+      "label": "2025-12-15",
+      "cash_balance": 3222511.63,
+      "dso_days": 44.0
+    },
+    {
+      "label": "2025-12-22",
+      "cash_balance": 2436182.23,
+      "dso_days": 49.6
+    },
+    {
+      "label": "2025-12-29",
+      "cash_balance": 2706525.74,
+      "dso_days": 47.8
+    },
+    {
+      "label": "2026-01-05",
+      "cash_balance": 5363027.25,
+      "dso_days": 50.1
+    },
+    {
+      "label": "2026-01-12",
+      "cash_balance": 5688797.01,
+      "dso_days": 46.4
+    },
+    {
+      "label": "2026-01-19",
+      "cash_balance": 5603189.02,
+      "dso_days": 47.1
+    },
+    {
+      "label": "2026-01-26",
+      "cash_balance": 6209705.03,
+      "dso_days": 46.9
+    },
+    {
+      "label": "2026-02-02",
+      "cash_balance": 6652382.91,
+      "dso_days": 45.2
+    },
+    {
+      "label": "2026-02-09",
+      "cash_balance": 6379424.14,
+      "dso_days": 48.5
+    },
+    {
+      "label": "2026-02-16",
+      "cash_balance": 5004268.04,
+      "dso_days": 49.8
+    },
+    {
+      "label": "2026-02-23",
+      "cash_balance": 5295600.52,
+      "dso_days": 46.3
+    },
+    {
+      "label": "2026-03-02",
+      "cash_balance": 4759465.8,
+      "dso_days": 44.7
+    },
+    {
+      "label": "2026-03-09",
+      "cash_balance": 3621194.66,
+      "dso_days": 47.8
+    },
+    {
+      "label": "2026-03-16",
+      "cash_balance": 5153510.17,
+      "dso_days": 45.5
+    },
+    {
+      "label": "2026-03-23",
+      "cash_balance": 5515838.85,
+      "dso_days": 44.2
+    },
+    {
+      "label": "2026-03-30",
+      "cash_balance": 4869927.92,
+      "dso_days": 47.0
+    },
+    {
+      "label": "2026-04-06",
+      "cash_balance": 4414087.91,
+      "dso_days": 45.6
+    },
+    {
+      "label": "2026-04-13",
+      "cash_balance": 5295458.45,
+      "dso_days": 45.3
+    },
+    {
+      "label": "2026-04-20",
+      "cash_balance": 3603914.99,
+      "dso_days": 48.1
+    },
+    {
+      "label": "2026-04-27",
+      "cash_balance": 4808294.1,
+      "dso_days": 46.9
+    },
+    {
+      "label": "2026-05-04",
+      "cash_balance": 4260639.48,
+      "dso_days": 46.7
+    },
+    {
+      "label": "2026-05-11",
+      "cash_balance": 3629747.0,
+      "dso_days": 49.1
+    },
+    {
+      "label": "2026-05-18",
+      "cash_balance": 3040390.78,
+      "dso_days": 51.6
+    },
+    {
+      "label": "2026-05-25",
+      "cash_balance": 3630601.39,
+      "dso_days": 48.1
+    },
+    {
+      "label": "2026-06-01",
+      "cash_balance": 4677045.66,
+      "dso_days": 47.0
+    },
+    {
+      "label": "2026-06-08",
+      "cash_balance": 4047394.46,
+      "dso_days": 49.9
+    },
+    {
+      "label": "2026-06-15",
+      "cash_balance": 3947379.46,
+      "dso_days": 48.7
+    },
+    {
+      "label": "2026-06-22",
+      "cash_balance": 3560250.75,
+      "dso_days": 48.2
+    },
+    {
+      "label": "2026-06-29",
+      "cash_balance": 4143359.46,
+      "dso_days": 47.6
+    },
+    {
+      "label": "2026-07-06",
+      "cash_balance": 4539910.07,
+      "dso_days": 47.1
+    },
+    {
+      "label": "2026-07-13",
+      "cash_balance": 3578940.41,
+      "dso_days": 49.2
+    },
+    {
+      "label": "2026-07-20",
+      "cash_balance": 4138686.68,
+      "dso_days": 47.9
+    },
+    {
+      "label": "2026-07-27",
+      "cash_balance": 4280008.24,
+      "dso_days": 49.4
+    },
+    {
+      "label": "2026-08-03",
+      "cash_balance": 2951914.24,
+      "dso_days": 48.8
+    },
+    {
+      "label": "2026-08-10",
+      "cash_balance": 4850966.0,
+      "dso_days": 46.6
+    },
+    {
+      "label": "2026-08-17",
+      "cash_balance": 3888315.26,
+      "dso_days": 49.9
+    },
+    {
+      "label": "2026-08-24",
+      "cash_balance": 3441864.01,
+      "dso_days": 49.9
+    },
+    {
+      "label": "2026-08-31",
+      "cash_balance": 4045567.29,
+      "dso_days": 48.7
+    },
+    {
+      "label": "2026-09-07",
+      "cash_balance": 3961710.77,
+      "dso_days": 50.3
+    },
+    {
+      "label": "2026-09-14",
+      "cash_balance": 3869904.9,
+      "dso_days": 50.5
+    },
+    {
+      "label": "2026-09-21",
+      "cash_balance": 3912536.22,
+      "dso_days": 50.6
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "outcome": "UNDERSTAND",
+  "flagged_weeks": 11,
+  "total_weeks": 208,
+  "items": [
+    {
+      "Week_Start": "2025-11-03 00:00:00",
+      "Operating_Ratio_pct": 84.2,
+      "Operating_Profit": 231005.25,
+      "Total_Revenue": 1464391.05,
+      "Anomaly_Score": 0.5622767369213676,
+      "Risk_Score": 98.5576923076923,
+      "Top_Driver": "Revenue_per_Tonne_Km",
+      "Top_Driver_z": 3.688270999304811
+    },
+    {
+      "Week_Start": "2025-10-27 00:00:00",
+      "Operating_Ratio_pct": 85.3,
+      "Operating_Profit": 212066.47,
+      "Total_Revenue": 1439306.65,
+      "Anomaly_Score": 0.5453451670560394,
+      "Risk_Score": 97.1153846153846,
+      "Top_Driver": "Revenue_per_Tonne_Km",
+      "Top_Driver_z": 3.742790560285011
+    },
+    {
+      "Week_Start": "2024-06-10 00:00:00",
+      "Operating_Ratio_pct": 95.5,
+      "Operating_Profit": 46541.81,
+      "Total_Revenue": 1034863.16,
+      "Anomaly_Score": 0.5748831914929289,
+      "Risk_Score": 99.51923076923076,
+      "Top_Driver": "Purchased_Transport_Cost_Share_pct",
+      "Top_Driver_z": 4.74412094321118
+    },
+    {
+      "Week_Start": "2024-05-20 00:00:00",
+      "Operating_Ratio_pct": 95.8,
+      "Operating_Profit": 43174.01,
+      "Total_Revenue": 1030548.72,
+      "Anomaly_Score": 0.5317227634134237,
+      "Risk_Score": 95.67307692307692,
+      "Top_Driver": "Purchased_Transport_Cost_Share_pct",
+      "Top_Driver_z": 4.092774790650715
+    },
+    {
+      "Week_Start": "2024-05-06 00:00:00",
+      "Operating_Ratio_pct": 97.3,
+      "Operating_Profit": 26988.69,
+      "Total_Revenue": 1006375.58,
+      "Anomaly_Score": 0.5663943733381052,
+      "Risk_Score": 99.03846153846156,
+      "Top_Driver": "Purchased_Transport_Cost_Share_pct",
+      "Top_Driver_z": 5.07109476720432
+    },
+    {
+      "Week_Start": "2024-04-29 00:00:00",
+      "Operating_Ratio_pct": 98.2,
+      "Operating_Profit": 16189.67,
+      "Total_Revenue": 900650.9,
+      "Anomaly_Score": 0.556496518964402,
+      "Risk_Score": 98.07692307692308,
+      "Top_Driver": "Purchased_Transport_Cost_Share_pct",
+      "Top_Driver_z": 4.06578579683261
+    },
+    {
+      "Week_Start": "2024-04-22 00:00:00",
+      "Operating_Ratio_pct": 97.0,
+      "Operating_Profit": 30189.56,
+      "Total_Revenue": 1018332.6,
+      "Anomaly_Score": 0.5457782611707281,
+      "Risk_Score": 97.59615384615384,
+      "Top_Driver": "Purchased_Transport_Cost_Share_pct",
+      "Top_Driver_z": 4.752742882975377
+    },
+    {
+      "Week_Start": "2024-04-15 00:00:00",
+      "Operating_Ratio_pct": 98.1,
+      "Operating_Profit": 18211.17,
+      "Total_Revenue": 966834.72,
+      "Anomaly_Score": 0.5907212493580722,
+      "Risk_Score": 100.0,
+      "Top_Driver": "Purchased_Transport_Cost_Share_pct",
+      "Top_Driver_z": 4.416299176460013
+    },
+    {
+      "Week_Start": "2024-02-12 00:00:00",
+      "Operating_Ratio_pct": 99.7,
+      "Operating_Profit": 2588.78,
+      "Total_Revenue": 790940.45,
+      "Anomaly_Score": 0.5298286109033155,
+      "Risk_Score": 95.1923076923077,
+      "Top_Driver": "On_Time_Delivery_pct",
+      "Top_Driver_z": -2.6136516929718066
+    },
+    {
+      "Week_Start": "2023-04-24 00:00:00",
+      "Operating_Ratio_pct": 88.4,
+      "Operating_Profit": 113233.04,
+      "Total_Revenue": 975147.84,
+      "Anomaly_Score": 0.534513432750007,
+      "Risk_Score": 96.15384615384616,
+      "Top_Driver": "Revenue_per_Tonne_Km",
+      "Top_Driver_z": 2.513044744845132
+    },
+    {
+      "Week_Start": "2023-02-27 00:00:00",
+      "Operating_Ratio_pct": 101.5,
+      "Operating_Profit": -9889.12,
+      "Total_Revenue": 673725.08,
+      "Anomaly_Score": 0.5365979888163404,
+      "Risk_Score": 96.6346153846154,
+      "Top_Driver": "Operating_Ratio_pct",
+      "Top_Driver_z": 2.404706185960039
+    }
+  ]
+}

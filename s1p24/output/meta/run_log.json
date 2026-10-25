@@ -1,0 +1,328 @@
+{
+  "generated_at": "2026-10-23T10:56:25",
+  "phases": [
+    {
+      "phase": "Phase 01 — Ingestion & validation",
+      "status": "OK",
+      "seconds": 0.07,
+      "reason": "",
+      "produces": [
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\validation_report.json"
+      ]
+    },
+    {
+      "phase": "Phase 02 — Cleaning & preprocessing",
+      "status": "OK",
+      "seconds": 0.15,
+      "reason": "",
+      "produces": [
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv"
+      ]
+    },
+    {
+      "phase": "Phase 03 — Feature engineering",
+      "status": "OK",
+      "seconds": 0.12,
+      "reason": "",
+      "produces": [
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\feature_store.csv"
+      ]
+    },
+    {
+      "phase": "Phase 04 — EDA charts",
+      "status": "OK",
+      "seconds": 1.8,
+      "reason": "",
+      "produces": [
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\reports\\chart_index.json"
+      ]
+    },
+    {
+      "phase": "Phase 05 — Operating regime segmentation",
+      "status": "OK",
+      "seconds": 0.82,
+      "reason": "",
+      "produces": [
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\ml_task1_output.csv"
+      ]
+    },
+    {
+      "phase": "Phase 06 — Anomaly detection & risk score",
+      "status": "OK",
+      "seconds": 0.79,
+      "reason": "",
+      "produces": [
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\ml_task2_output.csv"
+      ]
+    },
+    {
+      "phase": "Phase 07 — Forecast (8 weeks)",
+      "status": "OK",
+      "seconds": 1.84,
+      "reason": "",
+      "produces": [
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\forecast_output.csv",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\models\\forecast_model.pkl"
+      ]
+    },
+    {
+      "phase": "Phase 08 — Business logic rules",
+      "status": "OK",
+      "seconds": 0.07,
+      "reason": "",
+      "produces": [
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\business_logic_output.csv"
+      ]
+    },
+    {
+      "phase": "Phase 08B — What-if simulations",
+      "status": "OK",
+      "seconds": 0.02,
+      "reason": "",
+      "produces": [
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\decide\\simulations\\fuel_price_impact.json",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\decide\\simulations\\empty_km_reduction.json",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\decide\\simulations\\dso_cash_release.json"
+      ]
+    },
+    {
+      "phase": "Phase 08C — Goals & alert config",
+      "status": "OK",
+      "seconds": 0.0,
+      "reason": "",
+      "produces": [
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\config\\goals.json",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\config\\terminology.json"
+      ]
+    },
+    {
+      "phase": "Phase 09 — Insights engine",
+      "status": "OK",
+      "seconds": 0.3,
+      "reason": "",
+      "produces": [
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\reports\\insights.json"
+      ]
+    },
+    {
+      "phase": "Phase 10 — Excel report",
+      "status": "OK",
+      "seconds": 0.66,
+      "reason": "",
+      "produces": [
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\reports\\s1p24_report.xlsx"
+      ]
+    },
+    {
+      "phase": "Phase 11 — Frontend export",
+      "status": "OK",
+      "seconds": 0.24,
+      "reason": "",
+      "produces": [
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\understand\\kpis.json",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\understand\\segments.json",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\understand\\anomalies.json",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\decide\\insights.json",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\decide\\recommendations.json",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\decide\\goals.json",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\monitor\\forecast.json",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\monitor\\goal_progress.json",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\monitor\\alerts.json",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\meta\\summary.json",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\meta\\terminology.json",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\meta\\run_log.json",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\frontend_contract.json"
+      ]
+    },
+    {
+      "phase": "Phase 12 — Portfolio post generator",
+      "status": "OK",
+      "seconds": 0.09,
+      "reason": "",
+      "produces": [
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\reports\\linkedin_post.txt",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\reports\\post_evidence.txt",
+        "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\reports\\post_facts.json"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "key": "input_csv",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\data\\raw\\s1p24.csv"
+    },
+    {
+      "key": "validation_report",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\validation_report.json"
+    },
+    {
+      "key": "clean_data",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv"
+    },
+    {
+      "key": "feature_store",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\feature_store.csv"
+    },
+    {
+      "key": "ml_task1_output",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\ml_task1_output.csv"
+    },
+    {
+      "key": "ml_task2_output",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\ml_task2_output.csv"
+    },
+    {
+      "key": "forecast_output",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\forecast_output.csv"
+    },
+    {
+      "key": "business_logic",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\business_logic_output.csv"
+    },
+    {
+      "key": "forecast_model",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\models\\forecast_model.pkl"
+    },
+    {
+      "key": "metrics",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\reports\\ml_metrics.json"
+    },
+    {
+      "key": "goals_config",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\config\\goals.json"
+    },
+    {
+      "key": "terminology",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\config\\terminology.json"
+    },
+    {
+      "key": "insights",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\reports\\insights.json"
+    },
+    {
+      "key": "excel_report",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\reports\\s1p24_report.xlsx"
+    },
+    {
+      "key": "chart_index",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\reports\\chart_index.json"
+    },
+    {
+      "key": "sim_fuel_price",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\decide\\simulations\\fuel_price_impact.json"
+    },
+    {
+      "key": "sim_empty_km",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\decide\\simulations\\empty_km_reduction.json"
+    },
+    {
+      "key": "sim_dso",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\decide\\simulations\\dso_cash_release.json"
+    },
+    {
+      "key": "out_kpis",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\understand\\kpis.json"
+    },
+    {
+      "key": "out_segments",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\understand\\segments.json"
+    },
+    {
+      "key": "out_anomalies",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\understand\\anomalies.json"
+    },
+    {
+      "key": "out_insights",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\decide\\insights.json"
+    },
+    {
+      "key": "out_recs",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\decide\\recommendations.json"
+    },
+    {
+      "key": "out_goals",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\decide\\goals.json"
+    },
+    {
+      "key": "out_forecast",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\monitor\\forecast.json"
+    },
+    {
+      "key": "out_goal_progress",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\monitor\\goal_progress.json"
+    },
+    {
+      "key": "out_alerts",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\monitor\\alerts.json"
+    },
+    {
+      "key": "out_summary",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\meta\\summary.json"
+    },
+    {
+      "key": "out_terminology",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\meta\\terminology.json"
+    },
+    {
+      "key": "run_log",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\meta\\run_log.json"
+    },
+    {
+      "key": "frontend_contract",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\output\\frontend_contract.json"
+    },
+    {
+      "key": "export_script",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\export_for_frontend.py"
+    },
+    {
+      "key": "post_txt",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\reports\\linkedin_post.txt"
+    },
+    {
+      "key": "post_evidence",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\reports\\post_evidence.txt"
+    },
+    {
+      "key": "post_facts",
+      "status": "OK",
+      "path": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\reports\\post_facts.json"
+    }
+  ],
+  "contract_missing": [],
+  "all_ok": true
+}

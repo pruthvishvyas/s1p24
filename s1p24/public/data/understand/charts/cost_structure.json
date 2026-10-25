@@ -1,0 +1,43 @@
+{
+  "id": "cost_structure",
+  "title": "Which cost lines consume the largest share of operating cost?",
+  "type": "bar",
+  "outcome": "UNDERSTAND",
+  "question": "Which cost lines consume the largest share of operating cost?",
+  "x_label": "Cost line",
+  "y_label": "% of operating cost",
+  "data": [
+    {
+      "label": "Purchased_Transport_Cost",
+      "value": 41.736034618607725
+    },
+    {
+      "label": "Driver_Cost",
+      "value": 19.3357315938173
+    },
+    {
+      "label": "Fuel_Cost",
+      "value": 9.779624808974821
+    },
+    {
+      "label": "Overhead_Cost",
+      "value": 8.871742491098097
+    },
+    {
+      "label": "Maintenance_Cost",
+      "value": 8.656426891167497
+    },
+    {
+      "label": "Depreciation_Lease_Cost",
+      "value": 6.854398309086029
+    },
+    {
+      "label": "Handling_Tolls_Cost",
+      "value": 3.6885425198711914
+    },
+    {
+      "label": "Insurance_Cost",
+      "value": 1.0774987866266723
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "project": {
+    "name": "Weekly Freight & Logistics Operations",
+    "domain": "Freight and logistics (asset-based carrier with purchased transport)",
+    "client_id": "s1p24",
+    "description": "Weekly P&L, network efficiency and cash pipeline for a freight operator"
+  },
+  "terminology": {
+    "revenue": "Freight Revenue",
+    "customer": "Shipper",
+    "product": "Freight Mode",
+    "transaction": "Shipment"
+  },
+  "outcomes": {
+    "understand": {
+      "kpis": "understand/kpis.json",
+      "charts": [
+        "understand/charts/cash_dso_trend.json",
+        "understand/charts/cost_structure.json",
+        "understand/charts/empty_km_vs_or.json",
+        "understand/charts/quarter_operating_ratio.json",
+        "understand/charts/revenue_cost_trend.json"
+      ],
+      "segments": "understand/segments.json",
+      "anomalies": "understand/anomalies.json"
+    },
+    "decide": {
+      "insights": "decide/insights.json",
+      "recommendations": "decide/recommendations.json",
+      "simulations": [
+        "decide/simulations/fuel_price_impact.json",
+        "decide/simulations/empty_km_reduction.json",
+        "decide/simulations/dso_cash_release.json"
+      ],
+      "goals": "decide/goals.json"
+    },
+    "monitor": {
+      "forecast": "monitor/forecast.json",
+      "goal_progress": "monitor/goal_progress.json",
+      "alerts": "monitor/alerts.json"
+    }
+  },
+  "meta": {
+    "summary": "meta/summary.json",
+    "terminology": "meta/terminology.json",
+    "run_log": "meta/run_log.json"
+  },
+  "model": {
+    "type": "per-metric weekly forecaster (best of naive, seasonal naive, ridge, gradient boosting, hybrid)",
+    "pkl_file": "../models/forecast_model.pkl",
+    "input_fields": [
+      "week_start (date)"
+    ],
+    "output_label": "weekly revenue, operating cost, operating profit",
+    "horizon": 8,
+    "note": "pkl_file is informational; the live API (Skill 3) loads it server-side"
+  },
+  "frontend": {
+    "framework": "vanilla HTML/JS",
+    "deploy_target": "cloudflare_pages"
+  },
+  "saas_ready": true
+}

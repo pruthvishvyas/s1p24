@@ -1,0 +1,40 @@
+{
+  "charts": [
+    {
+      "id": "revenue_cost_trend",
+      "file": "chart_01_revenue_cost_trend.png",
+      "json": "understand/charts/revenue_cost_trend.json",
+      "outcome": "UNDERSTAND",
+      "question": "Is weekly revenue keeping ahead of operating cost, and how wide is the profit gap?"
+    },
+    {
+      "id": "cost_structure",
+      "file": "chart_02_cost_structure.png",
+      "json": "understand/charts/cost_structure.json",
+      "outcome": "UNDERSTAND",
+      "question": "Which cost lines consume the largest share of operating cost?"
+    },
+    {
+      "id": "empty_km_vs_or",
+      "file": "chart_03_empty_km_vs_operating_ratio.png",
+      "json": "understand/charts/empty_km_vs_or.json",
+      "outcome": "DECIDE",
+      "question": "Do weeks with more empty running carry a higher operating ratio?"
+    },
+    {
+      "id": "quarter_operating_ratio",
+      "file": "chart_04_quarter_operating_ratio.png",
+      "json": "understand/charts/quarter_operating_ratio.json",
+      "outcome": "DECIDE",
+      "question": "Which quarters run the weakest operating ratio and need pricing or capacity action?"
+    },
+    {
+      "id": "cash_dso_trend",
+      "file": "chart_05_cash_dso_trend.png",
+      "json": "understand/charts/cash_dso_trend.json",
+      "outcome": "MONITOR",
+      "question": "Is cash balance keeping pace while receivable days move?"
+    }
+  ],
+  "failed": []
+}

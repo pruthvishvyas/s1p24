@@ -1,0 +1,66 @@
+{
+  "outcome": "UNDERSTAND",
+  "period": {
+    "first_week": "2022-10-03 00:00:00",
+    "last_week": "2026-09-21 00:00:00",
+    "weeks": 208
+  },
+  "kpi_cards": [
+    {
+      "key": "revenue",
+      "label": "Freight Revenue (last 13 weeks)",
+      "value": 16732194.04,
+      "unit": "currency",
+      "previous_13_weeks": 15875198.900000002
+    },
+    {
+      "key": "operating_profit",
+      "label": "Operating profit (last 13 weeks)",
+      "value": 1682381.94,
+      "unit": "currency",
+      "previous_13_weeks": 1487113.7999999998
+    },
+    {
+      "key": "operating_ratio",
+      "label": "Operating ratio (last 13 weeks)",
+      "value": 90.0076923076923,
+      "unit": "percent",
+      "previous_13_weeks": 90.74615384615385
+    },
+    {
+      "key": "shipments",
+      "label": "Shipments (last 13 weeks)",
+      "value": 8925.0,
+      "unit": "count",
+      "previous_13_weeks": 8550.0
+    },
+    {
+      "key": "on_time",
+      "label": "On-time delivery (last 13 weeks)",
+      "value": 90.19230769230768,
+      "unit": "percent",
+      "previous_13_weeks": 91.45384615384614
+    },
+    {
+      "key": "dso",
+      "label": "Receivable days (latest week)",
+      "value": 50.6,
+      "unit": "days",
+      "previous_13_weeks": null
+    },
+    {
+      "key": "cash",
+      "label": "Cash balance (latest week)",
+      "value": 3912536.22,
+      "unit": "currency",
+      "previous_13_weeks": null
+    },
+    {
+      "key": "loss_weeks",
+      "label": "Loss weeks (all history)",
+      "value": 7.0,
+      "unit": "count",
+      "previous_13_weeks": null
+    }
+  ]
+}

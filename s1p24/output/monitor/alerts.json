@@ -1,0 +1,22 @@
+{
+  "outcome": "MONITOR",
+  "alerts": [
+    {
+      "id": "dso",
+      "severity": "MEDIUM",
+      "message": "Receivable days exceed the limit",
+      "metric": "DSO_Days",
+      "value": 50.6,
+      "threshold": 45.0
+    },
+    {
+      "id": "cash_cover",
+      "severity": "HIGH",
+      "message": "Cash cover is below the minimum weeks",
+      "metric": "Cash_Weeks_Cover",
+      "value": 3.449587837362269,
+      "threshold": 4.0
+    }
+  ],
+  "alert_count": 2
+}

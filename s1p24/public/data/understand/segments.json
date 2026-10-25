@@ -1,0 +1,889 @@
+{
+  "outcome": "UNDERSTAND",
+  "k": 3,
+  "silhouette": 0.29918469298583045,
+  "profiles": [
+    {
+      "segment": "Efficient",
+      "weeks": 85,
+      "share_pct": 40.86538461538461,
+      "means": {
+        "Operating_Ratio_pct": 90.62941176470588,
+        "Operating_Profit": 115519.71152941175,
+        "Total_Revenue": 1196397.1032941174,
+        "Empty_Km_pct": 14.049411764705884,
+        "Fleet_Utilization_pct": 81.05647058823529,
+        "Fuel_Cost_Share_pct": 9.52160568057747,
+        "Purchased_Transport_Cost_Share_pct": 41.82407201799508,
+        "On_Time_Delivery_pct": 90.24117647058823,
+        "Revenue_per_Tonne_Km": 0.21570999894016618
+      }
+    },
+    {
+      "segment": "Typical",
+      "weeks": 92,
+      "share_pct": 44.230769230769226,
+      "means": {
+        "Operating_Ratio_pct": 94.21956521739129,
+        "Operating_Profit": 61220.745434782606,
+        "Total_Revenue": 1019799.3498913043,
+        "Empty_Km_pct": 19.18913043478261,
+        "Fleet_Utilization_pct": 87.63478260869564,
+        "Fuel_Cost_Share_pct": 10.477928889727544,
+        "Purchased_Transport_Cost_Share_pct": 40.45164137269729,
+        "On_Time_Delivery_pct": 89.21304347826087,
+        "Revenue_per_Tonne_Km": 0.20136648975835175
+      }
+    },
+    {
+      "segment": "Stressed",
+      "weeks": 31,
+      "share_pct": 14.903846153846153,
+      "means": {
+        "Operating_Ratio_pct": 97.89032258064516,
+        "Operating_Profit": 21055.25290322581,
+        "Total_Revenue": 915752.3880645164,
+        "Empty_Km_pct": 18.700000000000003,
+        "Fleet_Utilization_pct": 66.73548387096774,
+        "Fuel_Cost_Share_pct": 8.521176515158471,
+        "Purchased_Transport_Cost_Share_pct": 44.72485110365044,
+        "On_Time_Delivery_pct": 85.93870967741937,
+        "Revenue_per_Tonne_Km": 0.2039484485700775
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "week": "2022-10-03",
+      "segment": "Typical"
+    },
+    {
+      "week": "2022-10-10",
+      "segment": "Typical"
+    },
+    {
+      "week": "2022-10-17",
+      "segment": "Typical"
+    },
+    {
+      "week": "2022-10-24",
+      "segment": "Typical"
+    },
+    {
+      "week": "2022-10-31",
+      "segment": "Typical"
+    },
+    {
+      "week": "2022-11-07",
+      "segment": "Typical"
+    },
+    {
+      "week": "2022-11-14",
+      "segment": "Typical"
+    },
+    {
+      "week": "2022-11-21",
+      "segment": "Typical"
+    },
+    {
+      "week": "2022-11-28",
+      "segment": "Typical"
+    },
+    {
+      "week": "2022-12-05",
+      "segment": "Typical"
+    },
+    {
+      "week": "2022-12-12",
+      "segment": "Typical"
+    },
+    {
+      "week": "2022-12-19",
+      "segment": "Typical"
+    },
+    {
+      "week": "2022-12-26",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-01-02",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-01-09",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-01-16",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-01-23",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2023-01-30",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-02-06",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-02-13",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-02-20",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-02-27",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-03-06",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-03-13",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-03-20",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-03-27",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-04-03",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2023-04-10",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-04-17",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-04-24",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2023-05-01",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2023-05-08",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2023-05-15",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2023-05-22",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-05-29",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-06-05",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-06-12",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-06-19",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-06-26",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-07-03",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-07-10",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-07-17",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-07-24",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-07-31",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-08-07",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-08-14",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-08-21",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-08-28",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-09-04",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-09-11",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-09-18",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-09-25",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-10-02",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-10-09",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-10-16",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-10-23",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-10-30",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-11-06",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-11-13",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-11-20",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-11-27",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-12-04",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-12-11",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-12-18",
+      "segment": "Typical"
+    },
+    {
+      "week": "2023-12-25",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-01-01",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-01-08",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-01-15",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-01-22",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-01-29",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-02-05",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-02-12",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-02-19",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-02-26",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-03-04",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-03-11",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-03-18",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-03-25",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-04-01",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-04-08",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-04-15",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-04-22",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-04-29",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-05-06",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-05-13",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-05-20",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-05-27",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-06-03",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-06-10",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-06-17",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-06-24",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-07-01",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-07-08",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-07-15",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2024-07-22",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-07-29",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-08-05",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-08-12",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2024-08-19",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-08-26",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-09-02",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-09-09",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-09-16",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-09-23",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-09-30",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2024-10-07",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-10-14",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-10-21",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-10-28",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-11-04",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-11-11",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-11-18",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-11-25",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-12-02",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-12-09",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-12-16",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-12-23",
+      "segment": "Typical"
+    },
+    {
+      "week": "2024-12-30",
+      "segment": "Typical"
+    },
+    {
+      "week": "2025-01-06",
+      "segment": "Typical"
+    },
+    {
+      "week": "2025-01-13",
+      "segment": "Typical"
+    },
+    {
+      "week": "2025-01-20",
+      "segment": "Typical"
+    },
+    {
+      "week": "2025-01-27",
+      "segment": "Typical"
+    },
+    {
+      "week": "2025-02-03",
+      "segment": "Typical"
+    },
+    {
+      "week": "2025-02-10",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2025-02-17",
+      "segment": "Typical"
+    },
+    {
+      "week": "2025-02-24",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-03-03",
+      "segment": "Typical"
+    },
+    {
+      "week": "2025-03-10",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-03-17",
+      "segment": "Typical"
+    },
+    {
+      "week": "2025-03-24",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-03-31",
+      "segment": "Typical"
+    },
+    {
+      "week": "2025-04-07",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-04-14",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-04-21",
+      "segment": "Typical"
+    },
+    {
+      "week": "2025-04-28",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-05-05",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-05-12",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-05-19",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-05-26",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-06-02",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-06-09",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-06-16",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-06-23",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-06-30",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-07-07",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-07-14",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-07-21",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-07-28",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-08-04",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-08-11",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-08-18",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-08-25",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-09-01",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-09-08",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-09-15",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-09-22",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-09-29",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-10-06",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-10-13",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-10-20",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-10-27",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-11-03",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-11-10",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-11-17",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-11-24",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-12-01",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-12-08",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-12-15",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-12-22",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2025-12-29",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-01-05",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-01-12",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-01-19",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-01-26",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-02-02",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-02-09",
+      "segment": "Stressed"
+    },
+    {
+      "week": "2026-02-16",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-02-23",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-03-02",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-03-09",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-03-16",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-03-23",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-03-30",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-04-06",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-04-13",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-04-20",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-04-27",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-05-04",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-05-11",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-05-18",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-05-25",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-06-01",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-06-08",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-06-15",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-06-22",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-06-29",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-07-06",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-07-13",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-07-20",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-07-27",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-08-03",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-08-10",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-08-17",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-08-24",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-08-31",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-09-07",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-09-14",
+      "segment": "Efficient"
+    },
+    {
+      "week": "2026-09-21",
+      "segment": "Efficient"
+    }
+  ]
+}

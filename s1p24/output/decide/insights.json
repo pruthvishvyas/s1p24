@@ -1,0 +1,105 @@
+{
+  "outcome": "DECIDE",
+  "items": [
+    {
+      "severity": "HIGH",
+      "category": "Fuel Exposure",
+      "finding": "Fuel surcharge revenue covers 14.6% of fuel cost.",
+      "evidence": "fuel cost 20,322,004 vs surcharge revenue 2,961,872 currency units over 208 weeks; unrecovered about 4,340,033 per year",
+      "action": "Re-set the fuel surcharge table against current fuel price so recovery tracks fuel cost.",
+      "outcome": "DECIDE",
+      "impact_annualized": 4340033.049999999,
+      "rank": 1
+    },
+    {
+      "severity": "HIGH",
+      "category": "Cost Structure",
+      "finding": "Purchased Transport Cost is the largest cost line at 41.7% of operating cost.",
+      "evidence": "Purchased Transport Cost 41.7%; Driver Cost 19.3%; Fuel Cost 9.8%",
+      "action": "Open a cost review on Purchased Transport Cost: renegotiate rates, volumes or sourcing.",
+      "outcome": "DECIDE",
+      "impact_annualized": 1084090.4786250002,
+      "rank": 2
+    },
+    {
+      "severity": "HIGH",
+      "category": "Service Quality",
+      "finding": "On-time delivery averaged 90.2% over the last 13 weeks; claims value runs at about 941,253 currency units per year.",
+      "evidence": "on-time minimum 90%; weeks below it in the last 13: 7",
+      "action": "Review late lanes and claim hot-spots; tie carrier scorecards to on-time and claims.",
+      "outcome": "DECIDE",
+      "impact_annualized": 941253.08,
+      "rank": 3
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "Liquidity",
+      "finding": "Cash covers 3.4 weeks of operating cost (minimum 4; lowest -0.4).",
+      "evidence": "latest cash balance 3,912,536 currency units; weekly operating cost about 1,157,678 currency units",
+      "action": "Keep cash cover above the minimum: stage capex and accelerate collections when cover falls.",
+      "outcome": "DECIDE",
+      "impact_annualized": 637199.9711732685,
+      "rank": 4
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "Working Capital",
+      "finding": "Latest receivable days are 50.6 (mean 45.0; limit 45).",
+      "evidence": "receivables 9,151,805 currency units; each 3 DSO days released frees about 542,597 currency units of cash",
+      "action": "Prioritise collections on accounts past terms and tighten credit terms on the slowest payers.",
+      "outcome": "DECIDE",
+      "impact_annualized": 542597.1260869565,
+      "rank": 5
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "Outlook",
+      "finding": "Forecast operating profit for the next 8 weeks is 1,430,659 currency units versus 1,041,347 currency units in the last 8 weeks.",
+      "evidence": "model gbr; held-out MAE 19,707 currency units per week (forecast, not a guarantee)",
+      "action": "Plan staffing and capex against the lower 80% band; recheck weekly as actuals arrive.",
+      "outcome": "DECIDE",
+      "impact_annualized": 389312.3391894847,
+      "rank": 6
+    },
+    {
+      "severity": "LOW",
+      "category": "Profitability",
+      "finding": "Operating ratio reached or exceeded the 95% target in 61 of 208 weeks (mean 93.3%).",
+      "evidence": "61 weeks >= 95%; 7 weeks > 100% (operating loss); profit gap to target about 339,061 currency units per year",
+      "action": "Review lane pricing and the largest cost lines in every flagged week; set a weekly operating-ratio alert at the target.",
+      "outcome": "DECIDE",
+      "impact_annualized": 339061.06431499997,
+      "rank": 7
+    },
+    {
+      "severity": "LOW",
+      "category": "Demand Patterns",
+      "finding": "Peak-season weeks run an operating ratio 1.6 points lower than off-peak weeks.",
+      "evidence": "peak 92.0% (34 weeks) vs off-peak 93.6% (174 weeks)",
+      "action": "Align peak-season pricing and capacity: protect the peak-season margin advantage",
+      "outcome": "DECIDE",
+      "impact_annualized": 159912.0510911366,
+      "rank": 8
+    },
+    {
+      "severity": "LOW",
+      "category": "Network Efficiency",
+      "finding": "Empty running averages 17.0% of loaded km; the top third of weeks runs an operating ratio 4.0 points above the bottom third.",
+      "evidence": "operating ratio 94.7% vs 90.7% (association, not proof of cause); a 10% cut in empty km is worth about 125,707 currency units per year",
+      "action": "Rebalance backhauls and consolidate loads on the weeks and lanes with the highest empty share.",
+      "outcome": "DECIDE",
+      "impact_annualized": 125706.93235030354,
+      "rank": 9
+    },
+    {
+      "severity": "LOW",
+      "category": "Anomaly Review",
+      "finding": "11 weeks were flagged as unusual; the most common driver is Purchased Transport Cost Share pct.",
+      "evidence": "drivers: Purchased Transport Cost Share pct (6), Revenue per Tonne Km (3), Operating Ratio pct (1)",
+      "action": "Open the anomaly list in the dashboard and review the most recent flagged weeks first.",
+      "outcome": "DECIDE",
+      "impact_annualized": 97625.05750000002,
+      "rank": 10
+    }
+  ]
+}

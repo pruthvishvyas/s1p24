@@ -1,0 +1,46 @@
+{
+  "variable": "dso_reduction_days",
+  "outcome": "DECIDE",
+  "baseline": {
+    "basis": "latest week",
+    "ar_outstanding": 9151804.86,
+    "dso_days": 50.6,
+    "receivables_per_day": 180865.70869565217
+  },
+  "assumptions": [
+    "Receivables per DSO day = AR_Outstanding / DSO_Days",
+    "Revenue unchanged"
+  ],
+  "scenarios": [
+    {
+      "dso_reduction_days": 0,
+      "new_dso_days": 50.6,
+      "cash_released": 0.0
+    },
+    {
+      "dso_reduction_days": 3,
+      "new_dso_days": 47.6,
+      "cash_released": 542597.1260869565
+    },
+    {
+      "dso_reduction_days": 6,
+      "new_dso_days": 44.6,
+      "cash_released": 1085194.252173913
+    },
+    {
+      "dso_reduction_days": 9,
+      "new_dso_days": 41.6,
+      "cash_released": 1627791.3782608695
+    },
+    {
+      "dso_reduction_days": 12,
+      "new_dso_days": 38.6,
+      "cash_released": 2170388.504347826
+    },
+    {
+      "dso_reduction_days": 15,
+      "new_dso_days": 35.6,
+      "cash_released": 2712985.6304347827
+    }
+  ]
+}

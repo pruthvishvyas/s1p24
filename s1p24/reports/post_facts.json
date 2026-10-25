@@ -1,0 +1,308 @@
+{
+  "facts": {
+    "n_weeks": {
+      "value": 208.0,
+      "display": "208",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Week_Start"
+      ],
+      "filter": "",
+      "how": "count of weekly rows after cleaning",
+      "n_rows": 208,
+      "repro": "len(df)",
+      "caveat": "",
+      "verified": true
+    },
+    "year_first": {
+      "value": 2022.0,
+      "display": "2022",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Week_Start"
+      ],
+      "filter": "",
+      "how": "calendar year of first week",
+      "n_rows": 208,
+      "repro": "df['Week_Start'].min().year",
+      "caveat": "",
+      "verified": true
+    },
+    "year_last": {
+      "value": 2026.0,
+      "display": "2026",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Week_Start"
+      ],
+      "filter": "",
+      "how": "calendar year of last week",
+      "n_rows": 208,
+      "repro": "df['Week_Start'].max().year",
+      "caveat": "",
+      "verified": true
+    },
+    "or_peak": {
+      "value": 91.98823529411764,
+      "display": "92.0%",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Peak_Season_Flag",
+        "Operating_Ratio_pct"
+      ],
+      "filter": "Peak_Season_Flag == 1",
+      "how": "mean operating ratio of peak-season weeks",
+      "n_rows": 34,
+      "repro": "df[df.Peak_Season_Flag==1].Operating_Ratio_pct.mean()",
+      "caveat": "association only",
+      "verified": true
+    },
+    "or_off": {
+      "value": 93.55574712643678,
+      "display": "93.6%",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Peak_Season_Flag",
+        "Operating_Ratio_pct"
+      ],
+      "filter": "Peak_Season_Flag == 0",
+      "how": "mean operating ratio of off-peak weeks",
+      "n_rows": 174,
+      "repro": "df[df.Peak_Season_Flag==0].Operating_Ratio_pct.mean()",
+      "caveat": "association only",
+      "verified": true
+    },
+    "or_gap_peak": {
+      "value": 1.5675118323191413,
+      "display": "1.6 points",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Peak_Season_Flag",
+        "Operating_Ratio_pct"
+      ],
+      "filter": "",
+      "how": "absolute difference between peak and off-peak mean operating ratio",
+      "n_rows": 208,
+      "repro": "abs(peak mean - off-peak mean)",
+      "caveat": "",
+      "verified": true
+    },
+    "n_peak": {
+      "value": 34.0,
+      "display": "34",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Peak_Season_Flag"
+      ],
+      "filter": "",
+      "how": "peak-season weeks",
+      "n_rows": 34,
+      "repro": "(df.Peak_Season_Flag==1).sum()",
+      "caveat": "",
+      "verified": true
+    },
+    "n_off": {
+      "value": 174.0,
+      "display": "174",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Peak_Season_Flag"
+      ],
+      "filter": "",
+      "how": "off-peak weeks",
+      "n_rows": 174,
+      "repro": "(df.Peak_Season_Flag==0).sum()",
+      "caveat": "",
+      "verified": true
+    },
+    "ci_lo_peak": {
+      "value": -3.042136578769452,
+      "display": "-3.0 points",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Peak_Season_Flag",
+        "Operating_Ratio_pct"
+      ],
+      "filter": "",
+      "how": "bootstrap 95% interval lower bound (1,000 resamples, seed 42)",
+      "n_rows": 208,
+      "repro": "see boot_ci",
+      "caveat": "",
+      "verified": true
+    },
+    "ci_hi_peak": {
+      "value": -0.16141903313049644,
+      "display": "-0.2 points",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Peak_Season_Flag",
+        "Operating_Ratio_pct"
+      ],
+      "filter": "",
+      "how": "bootstrap 95% interval upper bound (1,000 resamples, seed 42)",
+      "n_rows": 208,
+      "repro": "see boot_ci",
+      "caveat": "",
+      "verified": true
+    },
+    "top_cost_share": {
+      "value": 41.736034618607725,
+      "display": "41.7%",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Purchased_Transport_Cost",
+        "Total_Operating_Cost"
+      ],
+      "filter": "",
+      "how": "largest cost line as a share of total operating cost",
+      "n_rows": 208,
+      "repro": "df['Purchased_Transport_Cost'].sum()/df.Total_Operating_Cost.sum()*100",
+      "caveat": "share of cost, not of revenue",
+      "verified": true
+    },
+    "top_cost_amt": {
+      "value": 86727238.29,
+      "display": "86,727,238",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Purchased_Transport_Cost"
+      ],
+      "filter": "",
+      "how": "total of the largest cost line over the period",
+      "n_rows": 208,
+      "repro": "df['Purchased_Transport_Cost'].sum()",
+      "caveat": "currency units as in the source data",
+      "verified": true
+    },
+    "tot_cost": {
+      "value": 207799421.01,
+      "display": "207,799,421",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Total_Operating_Cost"
+      ],
+      "filter": "",
+      "how": "total operating cost over the period",
+      "n_rows": 208,
+      "repro": "df.Total_Operating_Cost.sum()",
+      "caveat": "currency units as in the source data",
+      "verified": true
+    },
+    "fuel_recovery": {
+      "value": 14.574702225979763,
+      "display": "14.6%",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Fuel_Surcharge_Revenue",
+        "Fuel_Cost"
+      ],
+      "filter": "",
+      "how": "fuel surcharge revenue as a share of fuel cost",
+      "n_rows": 208,
+      "repro": "df.Fuel_Surcharge_Revenue.sum()/df.Fuel_Cost.sum()*100",
+      "caveat": "base rates may also carry fuel recovery",
+      "verified": true
+    },
+    "fuel_sur": {
+      "value": 2961871.53,
+      "display": "2,961,872",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Fuel_Surcharge_Revenue"
+      ],
+      "filter": "",
+      "how": "total fuel surcharge revenue",
+      "n_rows": 208,
+      "repro": "df.Fuel_Surcharge_Revenue.sum()",
+      "caveat": "",
+      "verified": true
+    },
+    "fuel_cost": {
+      "value": 20322003.729999997,
+      "display": "20,322,004",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Fuel_Cost"
+      ],
+      "filter": "",
+      "how": "total fuel cost",
+      "n_rows": 208,
+      "repro": "df.Fuel_Cost.sum()",
+      "caveat": "",
+      "verified": true
+    },
+    "fc_mape": {
+      "value": 2.8301157498907696,
+      "display": "2.8%",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\reports\\ml_metrics.json",
+      "columns": [
+        "Total_Revenue"
+      ],
+      "filter": "last 13 weeks held out",
+      "how": "mean absolute percentage error of the chosen model on the held-out final weeks",
+      "n_rows": 13,
+      "repro": "mean(abs(actual-pred)/actual)*100 on holdout_dates in ml_metrics.json",
+      "caveat": "forecast error on one held-out period",
+      "verified": true
+    },
+    "fc_naive": {
+      "value": 4.998269188748796,
+      "display": "5.0%",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\reports\\ml_metrics.json",
+      "columns": [
+        "Total_Revenue"
+      ],
+      "filter": "same held-out weeks",
+      "how": "MAPE of a last-value baseline on the same held-out weeks",
+      "n_rows": 13,
+      "repro": "mean(abs(y[-HO:]-y[-HO-1])/y[-HO:])*100",
+      "caveat": "",
+      "verified": true
+    },
+    "fc_horizon": {
+      "value": 8.0,
+      "display": "8",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\forecast_output.csv",
+      "columns": [
+        "Week_Start",
+        "Metric"
+      ],
+      "filter": "",
+      "how": "forecast horizon in weeks",
+      "n_rows": 8,
+      "repro": "(fo.Metric=='Total_Revenue').sum()",
+      "caveat": "",
+      "verified": true
+    },
+    "fc_holdout": {
+      "value": 13.0,
+      "display": "13",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p24\\s1p24\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Week_Start"
+      ],
+      "filter": "",
+      "how": "held-out weeks used to measure forecast error",
+      "n_rows": 13,
+      "repro": "len(holdout_dates)",
+      "caveat": "",
+      "verified": true
+    }
+  },
+  "dropped_candidates": [],
+  "attempts": [
+    {
+      "mode": "rich",
+      "findings": 4,
+      "failures": []
+    }
+  ],
+  "selected": [
+    "cost_concentration",
+    "fuel_recovery",
+    "peak_season",
+    "forecast"
+  ],
+  "post_generated": true,
+  "linkedin_input_block": "PROJECT: Weekly Freight & Logistics Operations | DOMAIN: Freight and logistics (asset-based carrier with purchased transport)\nDATASET: 208 weekly records, 2022-10-03 to 2026-09-21 (provenance: synthetic_portfolio)\nFINDINGS:\n- Purchased Transport accounts for 41.7% of operating cost, 86,727,238 of 207,799,421 currency units across 208 weeks.\n- Fuel surcharge revenue covers 14.6% of fuel cost, 2,961,872 against 20,322,004 currency units across 208 weeks.\n- Peak-season weeks (34 weeks) average an operating ratio of 92.0%, 1.6 points lower than the 174 off-peak weeks (93.6%).\n- A 8-week revenue forecast, labeled as a forecast, shows a MAPE of 2.8% on a 13-week held-out period versus 5.0% for a last-value baseline.\nTOOLS AND MODELS: pandas for cleaning and feature engineering; K-Means clustering for operating regimes; Isolation Forest for unusual weeks; Gradient boosting for the weekly forecast; Bootstrap resampling for group-gap intervals; Rule-based flags for weekly actions\nOUTPUTS: Excel report, JSON bundle for a dashboard, forecast, weekly action flags\nTARGET AUDIENCE: hiring managers"
+}
